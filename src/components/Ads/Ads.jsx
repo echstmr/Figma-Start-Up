@@ -7,7 +7,7 @@ const Ads = () => {
             {/* Ads Text */}
             <div className='flex flex-col gap-4 md:items-start items-center'>
                 <h1 className='w-[100%] max-w-[500px] min-w-[300px] font-semibold text-3xl md:text-4xl md:text-start text-center text-scndry_txt'>OpenType features and Variable fonts</h1>
-                <button className='w-[180px] h-[40px] bg-primary font-semibold'>Try For Free</button></div>
+                <button className='w-[180px] h-[40px] text-scndry_txt bg-primary font-semibold'>Try For Free</button></div>
             {/* Ads Img */}
             <div>
                 <img src={Ads_Img}  className='w-[100%] min-w-[400px] max-w-[500px]'/>
