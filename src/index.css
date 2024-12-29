@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* COLORS */
+  /* dark_bg: '#181818',
+  light_bg: '#ffffff',
+  primary: '#4452FE',
+  first_txt: '#181818',
+  scndry_txt: '#ffffff' */
+
+html, body{
+  scroll-behavior: smooth;
+}
+body{
+  @apply bg-dark_bg;
+}
